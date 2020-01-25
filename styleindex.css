@@ -6,8 +6,16 @@
 	list-style: none;
 	box-sizing: border-box;
 }
+/*untuk menggunkan font dari luar komputer*/
+@font-face{
+	font-family: opensans;
+	src: url(OpenSans-Regular.ttf);
+	
+}
+
 body{
-	font-family: calibri;	
+	
+	font-family: opensans;
 }
 nav{
 	background: #999999;
@@ -75,7 +83,7 @@ a.active,a:hover{
 		position: fixed;
 		width: 100%;
 		height: 100vh;
-		background:#2c3e50;
+		background:#888484;
 		top: 80px;
 		left: -100%;
 		text-align: center;
@@ -99,5 +107,10 @@ a.active,a:hover{
 		left: 0;
 	}
 
+}
+body{
+	background-image: url(gambar/bg1.png);
+
+	
 }
 /*belajar perintah-perintah CSS*/

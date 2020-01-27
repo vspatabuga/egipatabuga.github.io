@@ -8,17 +8,23 @@
 	font-family: opensans;
 	src:url(OpenSans-Regular.ttf);
 }
+@font-face{
+	font-family: juliussans;
+	src:url(JuliusSansOne-Regular.ttf);
+}
 body{
 	font-family: opensans;
-	background-color: #A8A8A8;
+	
 }
+
 .logo{
-	color: #585757;
-	font-family: times-new-roman;
+	color: #DAD5D5;
+	font-family: juliussans;
 	font-size: 30px;
 	line-height: 60px;
-	padding: 20px
-
+	padding: 15px 20px;
+	background-color:#282828;
+	letter-spacing: 
 }
 nav{
 	position: fixed;
@@ -46,7 +52,7 @@ nav ul li a{
 
 }
 .cvbtn{
-	background: #A8A8A8;
+	background: #9D7474;
 	color: white;
 }
 .cvbtn:hover{
@@ -115,6 +121,19 @@ a:hover{
 }
 /*konten utama*/
 
+/*Margin Utama*/
+.marginutama{
+	margin-right: 7%;
+	margin-left: 7%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.paddingutama{
+	
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/*PAGE 1*/
 .page1{
 	/*mengatur jarak page 1 dari atas*/
 	margin-top: -5px;
@@ -131,8 +150,9 @@ a:hover{
 	margin-top: 65px;
 	margin-left: 4%;
 	color: #DCDCE3;
-	font-size: 55px;
+	font-size: 70px;
 	letter-spacing: 13px;
+	font-family: juliussans;
 }
 .jarak1{
 	margin-top: 562px;
@@ -148,7 +168,7 @@ a:hover{
 }
 .page21{
 	height: 660px;
-	width:47%;
+	width:50%;
 	float: left;
 
 
@@ -156,43 +176,52 @@ a:hover{
 .page22{
 	height: 660px;
 	width:50%;
-	margin-left: 670px;
+	float: left;
 
 	}
 	
 .about1{
-	margin-top: 60px;
-	margin-left: 6%;
+	margin-top: 80px;
+	margin-left: 3%;
 	color:#212529 ;
-	font-size: 35px;
+	font-size: 40px;
 	letter-spacing: 3px;
 	font-family: times-new-roman;
 }
 .about2{
-	margin-left: 5%;
+	margin-left: 3%;
+	margin-right: 3%;
 	margin-top: 50px;
 	text-align: justify;
-	font-size: 17px;
+	font-size: 1em;
 	letter-spacing: 1px;
 	line-height: 27px;
 	color:#212529;
 }
 .gambarpage2{
-	margin-left: 230px;	
+	display: inline-block;
 	padding-top: 170px;
+	padding-left: 30%;
 	
 	
 }
 .gambarpage22{
 	border-radius: 50%;
 	border:solid 3px white;
+	
 }
 .namapage2{
-	font-family: times-new-roman;
-	font-size: 30px;
+	display: inline-block;
+	font-family: juliussans;
+	font-size: 25px;
 	color: #9D7474;
-	padding-top:30px;
-	margin-left:140px;
+	padding-top:40px;
+	padding-left: 30%;
+
+}
+.patabuga{
+	font-size: 55px;
+	letter-spacing: 3px;
 }
 .jarak2{
 	
@@ -202,6 +231,9 @@ a:hover{
 
 
 }
+.clear1{
+	clear: both;
+}
 
 /*PAGE 3*/
 .page3{
@@ -210,14 +242,11 @@ a:hover{
 	background-color: lightgreen;
 
 }
-.project{
-
-}
 .jarak3{
 	
 	height: 60px;
 	width: 100%;
-	margin-top: 557px;
+
 	background-color: salmon;
 }
 
@@ -248,6 +277,7 @@ a:hover{
 	padding-left:  10px;
 	padding-top: 10px;
 	letter-spacing: 2px;
+	border-bottom: 2px solid white;
 
 }
 .ct1{
@@ -255,17 +285,20 @@ a:hover{
 	width:30%;
 	float: left;
 	
+	
 }	
 .ct2{
 	height: 145px;
 	width:40%;
 	float: left;
 	
+	
 }
 .ct3{
 	height: 145px;
 	width:30%;
 	float: left;
+	
 	
 }
 .ct21{
@@ -292,6 +325,7 @@ a:hover{
 	height: 40px;
 	width:100%;
 	background-color: #141414;
+	text-align: center;
 }
 
 .copy{

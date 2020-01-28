@@ -12,6 +12,10 @@
 	font-family: juliussans;
 	src:url(JuliusSansOne-Regular.ttf);
 }
+@font-face{
+	font-family: roboto;
+	src:url(RobotoCondensed-Regular.ttf);
+}
 body{
 	font-family: opensans;
 	
@@ -142,22 +146,44 @@ a:hover{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	width:100%; 
+
 
 }
+.page11{
+	width:100%; 
+	height: 600px;
+	
+}
+.page111{
+	margin: auto;
+	padding-top: 15%;
+	width: 670px;
+	height: 100px;
+	text-align: center;
+	
+}
+
+
 .welcome1{
-	display: inline-block;
-	margin-top: 65px;
-	margin-left: 4%;
-	color: #DCDCE3;
+	color: #F1F1F1;
 	font-size: 70px;
 	letter-spacing: 13px;
 	font-family: juliussans;
+	border-bottom: 2px solid #F1F1F1;
+}
+.welcome2{
+	font-size: 30px;
+	color: #F1F1F1;
+	padding-bottom: 20px;
+	letter-spacing: 7px;
 }
 .jarak1{
-	margin-top: 562px;
+	margin-top: 200px;
 	height: 60px;
+	
+/*masih bermasalah ketika layar berbeda*/
 }
+
 
 /*PAGE 2*/
 .page2{
@@ -186,7 +212,7 @@ a:hover{
 	color:#212529 ;
 	font-size: 40px;
 	letter-spacing: 3px;
-	font-family: times-new-roman;
+	font-family: juliussans;
 }
 .about2{
 	margin-left: 3%;
@@ -200,7 +226,7 @@ a:hover{
 }
 .gambarpage2{
 	display: inline-block;
-	padding-top: 170px;
+	padding-top: 160px;
 	padding-left: 30%;
 	
 	
@@ -216,7 +242,7 @@ a:hover{
 	font-size: 25px;
 	color: #9D7474;
 	padding-top:40px;
-	padding-left: 30%;
+	padding-left: 29%;
 
 }
 .patabuga{
@@ -227,7 +253,7 @@ a:hover{
 	
 	height: 60px;
 	width: 100%;
-	background-color: salmon;
+
 
 
 }
@@ -239,15 +265,76 @@ a:hover{
 .page3{
 	height: 660px;
 	width: 100%;
-	background-color: lightgreen;
+	background-color: #282828;
+	color: white;
+	display: inline-block;
 
+
+}
+.project{
+
+	margin-top: 50px;
+	margin-left: 3%;
+	color:white ;
+	font-size: 40px;
+	letter-spacing: 3px;
+	font-family: juliussans;
+	text-align: center;
+
+}
+.project2{
+	
+	margin-top: 50px;
+	margin-left: 3%;
+	font-size: 15px;
+	text-align: justify;
+	letter-spacing: 2px;
+	padding-right: 30px;
+	line-height: 160%;
+	
+}
+.tp{
+	
+	font-size: 25px;
+	letter-spacing:3px;
+	font-family: juliussans;
+	margin-left: 3%;
+	margin-top:70px;
+	margin-bottom: 40px;
+}
+.project3{
+	height: 200px;
+	
+	text-align: center;
+	margin-left: 3%;
+	
+}
+.tp1{
+	background-color: #B9BCB9;
+	width: 33%;
+	height: 100%;
+	float: left;
+}
+.tp2{
+	background-color: #B9BCB9;
+	height: 100%;
+	width: 33%;
+	float: left;
+	border-left: 5px solid #282828;
+	border-right: 5px solid #282828;
+}
+.tp3{
+	background-color: #B9BCB9;
+	height: 100%;
+	width: 33%;
+	float: left;
 }
 .jarak3{
 	
 	height: 60px;
 	width: 100%;
-
-	background-color: salmon;
+	margin-top: 46px;
+	
 }
 
 
@@ -257,13 +344,152 @@ a:hover{
 .page4{
 	height: 660px;
 	width: 100%;
-	background-color: pink
+	background-color: #F2F1F3;
+	display: inline-block;
 }
 .blog{
-	height: 620px;
-	width:100%;
+	color: #282828;
 	
+
 }
+.shot1{
+	margin-top: 30px;
+	font-family: juliussans;
+	font-size: 40px;
+	letter-spacing: 3px;
+}
+.shot2{
+	margin-top: 15px;
+	font-size: 17px
+
+}
+.boxfoto{
+	
+	height: 450px; 
+}
+.bf1{
+	height: 25%;
+	background-color: lightblue;
+}
+.bf11{
+	color: black;
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.bf2{
+	height: 25%;
+	background-color: pink;
+
+}
+.bf21{
+	color: black;
+	width: 30%;
+	height: 100%;
+	float: left;
+	background-color: violet;
+}
+.bf22{
+	color: black;
+	width: 40%;
+	height: 100%;
+	float: left;
+	background-color: aqua;
+}
+.bf23{
+	color: black;
+	width: 30%;
+	height: 100%;
+	float: left;
+	background-color: salmon;
+}
+
+.bf3{
+	height: 25%;
+	background-color: gold;
+}
+.bf31{
+	color: black;
+	width: 16%;
+	height: 100%;
+	float: left;
+	background-color: salmon;
+}
+.bf32{
+	color: black;
+	width: 15%;
+	height: 100%;
+	float: left;
+	background-color: violet;
+}
+.bf33{
+	color: black;
+	width: 17%;
+	height: 100%;
+	float: left;
+	background-color: aqua;
+}
+.bf34{
+	color: black;
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-color: pink;
+}
+.bf35{
+	color: black;
+	width: 16%;
+	height: 100%;
+	float: left;
+	background-color: lightblue;
+}
+.bf36{
+	color: black;
+	width: 16%;
+	height: 100%;
+	float: left;
+	background-color: lightgreen;
+}
+.bf4{
+	height: 25%;
+	background-color: salmon;
+}
+.bf41{
+	color: black;
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-color:salmon;
+	}
+.bf42{
+	color: black;
+	width: 25%;
+	height: 100%;
+	float: left;
+	background-color:lightgreen;
+	}
+.bf43{
+	color: black;
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-color:pink;
+	}
+.bf44{
+	color: black;
+	width: 15%;
+	height: 100%;
+	float: left;
+	background-color:aqua;
+	}
+.bf45{
+	color: black;
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-color:gold;
+	}
+
 /*PAGE 5*/
 .page5{
 	height: 230px;
@@ -278,12 +504,15 @@ a:hover{
 	padding-top: 10px;
 	letter-spacing: 2px;
 	border-bottom: 2px solid white;
+	background-color: lightgreen;
 
 }
 .ct1{
 	height: 145px;
 	width:30%;
 	float: left;
+	background-color: salmon;
+	color: white;
 	
 	
 }	
@@ -291,6 +520,7 @@ a:hover{
 	height: 145px;
 	width:40%;
 	float: left;
+	background-color: lightblue;
 	
 	
 }
@@ -298,6 +528,7 @@ a:hover{
 	height: 145px;
 	width:30%;
 	float: left;
+	background-color: gold;
 	
 	
 }
@@ -316,6 +547,9 @@ a:hover{
 }
 .linkedin{
 	border-radius: 50%;
+}
+.link{
+	color: white;
 }
 
 

@@ -146,17 +146,19 @@ a:hover{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	width:100%; 
+	height: 700px;
 
 
 }
 .page11{
-	width:100%; 
-	height: 600px;
+	
+	/*dipindahkan di page 1*/
 	
 }
 .page111{
-	margin: auto;
-	padding-top: 15%;
+	margin-left: 170px;
+	padding-top: 10%;
 	width: 670px;
 	height: 100px;
 	text-align: center;
@@ -178,7 +180,7 @@ a:hover{
 	letter-spacing: 7px;
 }
 .jarak1{
-	margin-top: 200px;
+	margin-top: 406px;
 	height: 60px;
 	
 /*masih bermasalah ketika layar berbeda*/
@@ -201,6 +203,7 @@ a:hover{
 	height: 660px;
 	width:50%;
 	float: left;
+	
 	}
 .page23{
 	height: 450px;
@@ -314,23 +317,23 @@ a:hover{
 }
 .gambarpage2{
 	display: inline-block;
-	padding-top: 160px;
+	padding-top: 80px;
 	padding-left: 30%;
 	
-	
-}
+	}
 .gambarpage22{
 	border-radius: 50%;
-	border:solid 3px white;
+	border:solid 3px #9D7474;
 	
-}
+	}
 .namapage2{
 	display: inline-block;
 	font-family: juliussans;
 	font-size: 25px;
 	color: #9D7474;
 	padding-top:40px;
-	padding-left: 29%;
+	padding-left: 35%;
+	
 
 }
 .patabuga{

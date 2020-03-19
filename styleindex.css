@@ -1,0 +1,658 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+
+}
+@font-face{
+	font-family: opensans;
+	src:url(OpenSans-Regular.ttf);
+}
+@font-face{
+	font-family: juliussans;
+	src:url(JuliusSansOne-Regular.ttf);
+}
+@font-face{
+	font-family: roboto;
+	src:url(RobotoCondensed-Regular.ttf);
+}
+body{
+	font-family: opensans;
+	
+}
+
+.logo{
+	color: #DAD5D5;
+	font-family: juliussans;
+	font-size: 30px;
+	line-height: 60px;
+	padding: 15px 20px;
+	background-color:#282828;
+	letter-spacing: 
+}
+nav{
+	position: fixed;
+	background: white;
+	height: 60px;
+	width: 100%
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+
+}
+nav ul li {
+	display: inline-block;
+	line-height: 60px;
+	margin: 5px;
+}
+nav ul li a{
+	color:#747474 ;
+	font-size: 15px;
+	line-height: 60px;
+	padding:0px 7px;
+	border-radius: 3px;
+	text-transform: uppercase;
+
+}
+.cvbtn{
+	background: #9D7474;
+	color: white;
+}
+.cvbtn:hover{
+	background:  #565656;
+	color: white;
+	transition: .5s;
+
+}
+a:hover{
+	color:black;
+	transition: .5s;
+}
+.checkbtn{
+	color: #585757;
+	font-size: 25px;
+	cursor: pointer;
+	float: right;
+	margin-right:20px;
+	line-height: 65px;
+	display: none;
+}
+#check{
+	display: none;
+}
+@media(max-width: 552px){
+	.logo{
+		font-size: 20px;
+		transition: .5s;
+		padding-left: 25px;
+
+	}
+	nav ul li{
+		font-size: 13px;
+	}
+}
+@media(max-width: 800px){
+	.checkbtn{
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #E8E6E6;
+		top: 60px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 25px 0;
+		line-height: 20px;
+	}
+	nav ul li a{
+		font-size: 20px;
+	}
+	a:hover{
+		background: none;
+		color: black;
+	}
+	#check:checked ~ ul {
+		left:  0;
+	}
+
+}
+/*konten utama*/
+
+/*Margin Utama*/
+.marginutama{
+	margin-right: 7%;
+	margin-left: 7%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.paddingutama{
+	
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/*PAGE 1*/
+.page1{
+	/*mengatur jarak page 1 dari atas*/
+	margin-top: -5px;
+  	background-image: url(gambar/bg1.jpg);
+  	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:100%; 
+	height: 700px;
+
+
+}
+.page11{
+	
+	/*dipindahkan di page 1*/
+	
+}
+.page111{
+	margin-left: 170px;
+	padding-top: 10%;
+	width: 670px;
+	height: 100px;
+	text-align: center;
+	
+}
+
+
+.welcome1{
+	color: #F1F1F1;
+	font-size: 70px;
+	letter-spacing: 13px;
+	font-family: juliussans;
+	border-bottom: 2px solid #F1F1F1;
+}
+.welcome2{
+	font-size: 30px;
+	color: #F1F1F1;
+	padding-bottom: 20px;
+	letter-spacing: 7px;
+}
+.jarak1{
+	margin-top: 406px;
+	height: 60px;
+	
+/*masih bermasalah ketika layar berbeda*/
+}
+
+
+/*PAGE 2*/
+.page2{
+	
+	height: 1020px;
+	width: 100%;
+	background-color:#F2F1F3;
+}
+.page21{
+	height: 660px;
+	width:50%;
+	float: left;
+}
+.page22{
+	height: 660px;
+	width:50%;
+	float: left;
+	
+	}
+.page23{
+	height: 450px;
+	width:50%;
+	background-color: salmon;
+	}
+
+.page24{
+	height: 300px;
+	width:40%;
+	float: left;
+	margin: 0 5%;
+	}
+.cb2{
+	width: 100%;
+	height: 15px;
+	background: #ddd;
+	border-radius: 12px;
+
+}
+.cb31{
+	height: 15px;
+	width: 75%;
+	background-color: #9D7474;
+	border-radius: 12px;
+
+}
+.cb32{
+	height: 15px;
+	width: 70%;
+	background-color: #9D7474;
+	border-radius: 12px;
+}
+.cb33{
+	height: 15px;
+	width: 50%;
+	background-color: #9D7474;
+	border-radius: 12px;
+}
+.cb34{
+	height: 15px;
+	width: 30%;
+	background-color: #9D7474;
+	border-radius: 12px;
+}
+.pp2{
+	float: right;
+	margin-right: 6px;
+	line-height: 15px;
+	color: white;
+}
+.page25{
+	height: 300px;
+	width:50%;
+	float: left;
+	}
+.cp2{
+	font-family: juliussans;
+	font-size: 25px;
+	letter-spacing: 3px;
+	color:#212529 ;
+	padding-bottom: 7px;
+
+}
+.cp3{
+	padding-top: 20px;
+}
+	
+.cp22{
+	font-size: 17px;
+	letter-spacing: 3px;
+	padding-bottom: 15px;
+	color:#212529;
+}
+.sp2{
+	padding-left: 20px;
+	padding-right: 40px;
+	text-align: justify;
+	font-size: 16px;
+	color:#212529;
+	letter-spacing: 2px;
+	line-height: 180%;
+
+}
+.sp3{
+	padding-left: 20px;
+	padding-right: 40px;
+	text-align: justify;
+	font-size: 15px;
+	color:#212529;
+	padding-top: 10px;
+}
+.about1{
+	margin-top: 80px;
+	margin-left: 3%;
+	color:#212529 ;
+	font-size: 40px;
+	letter-spacing: 3px;
+	font-family: juliussans;
+
+}
+.about2{
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 50px;
+	text-align: justify;
+	font-size: 1em;
+	letter-spacing: 1px;
+	line-height: 27px;
+	color:#212529;
+}
+.gambarpage2{
+	display: inline-block;
+	padding-top: 80px;
+	padding-left: 30%;
+	
+	}
+.gambarpage22{
+	border-radius: 50%;
+	border:solid 3px #9D7474;
+	
+	}
+.namapage2{
+	display: inline-block;
+	font-family: juliussans;
+	font-size: 25px;
+	color: #9D7474;
+	padding-top:40px;
+	padding-left: 35%;
+	
+
+}
+.patabuga{
+	font-size: 55px;
+	letter-spacing: 3px;
+}
+.jarak2{
+	
+	height: 60px;
+	width: 100%;
+
+
+}
+.clear1{
+	clear: both;
+}
+
+/*PAGE 3*/
+.page3{
+	height: 660px;
+	width: 100%;
+	background-color: #282828;
+	color: white;
+	display: inline-block;
+
+
+}
+.project{
+
+	margin-top: 50px;
+	margin-left: 3%;
+	color:white ;
+	font-size: 40px;
+	letter-spacing: 3px;
+	font-family: juliussans;
+	text-align: center;
+
+}
+.project2{
+	
+	margin-top: 50px;
+	margin-left: 3%;
+	font-size: 15px;
+	text-align: justify;
+	letter-spacing: 2px;
+	padding-right: 30px;
+	line-height: 160%;
+	
+}
+.tp{
+	
+	font-size: 25px;
+	letter-spacing:3px;
+	font-family: juliussans;
+	margin-left: 3%;
+	margin-top:70px;
+	margin-bottom: 40px;
+}
+.project3{
+	height: 200px;
+	
+	text-align: center;
+	margin-left: 3%;
+	
+}
+.tp1{
+	background-color: #B9BCB9;
+	width: 33%;
+	height: 100%;
+	float: left;
+}
+.tp2{
+	background-color: #B9BCB9;
+	height: 100%;
+	width: 33%;
+	float: left;
+	border-left: 5px solid #282828;
+	border-right: 5px solid #282828;
+}
+.tp3{
+	background-color: #B9BCB9;
+	height: 100%;
+	width: 33%;
+	float: left;
+}
+.jarak3{
+	
+	height: 60px;
+	width: 100%;
+	margin-top: 46px;
+	
+}
+
+
+
+
+/*PAGE 4*/
+.page4{
+	height: 660px;
+	width: 100%;
+	background-color: #F2F1F3;
+	display: inline-block;
+}
+.blog{
+	color: #282828;
+	
+
+}
+.shot1{
+	margin-top: 30px;
+	font-family: juliussans;
+	font-size: 40px;
+	letter-spacing: 3px;
+}
+.shot2{
+	margin-top: 15px;
+	font-size: 17px
+
+}
+.boxfoto{
+	
+	height: 460px; 
+}
+.bf1{
+	height: 30%;
+	background-color: lightblue;
+}
+.bf11{
+	color: black;
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.bf2{
+	height: 40%;
+	background-color: pink;
+
+}
+.bf21{
+	color: black;
+	width: 30%;
+	height: 100%;
+	float: left;
+	background-color: violet;
+}
+.bf22{
+	color: black;
+	width: 40%;
+	height: 100%;
+	float: left;
+	background-color: aqua;
+}
+.bf23{
+	color: black;
+	width: 30%;
+	height: 100%;
+	float: left;
+	background-color: salmon;
+}
+
+
+.bf4{
+	height: 30%;
+	background-color: salmon;
+}
+.bf41{
+	color: black;
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-color:salmon;
+	}
+.bf42{
+	color: black;
+	width: 25%;
+	height: 100%;
+	float: left;
+	background-color:lightgreen;
+	}
+.bf43{
+	color: black;
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-color:pink;
+	}
+.bf44{
+	color: black;
+	width: 15%;
+	height: 100%;
+	float: left;
+	background-color:aqua;
+	}
+.bf45{
+	color: black;
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-color:gold;
+	}
+
+/*PAGE 5*/
+.page5{
+	height: 230px;
+	width: 100%;
+	background-color: #282828;
+	color: white
+	
+}
+.contact{
+	font-size: 25px;
+	padding-left:  10px;
+	padding-top: 20px;
+	letter-spacing: 2px;
+	padding-bottom: 30px;
+	font-family: juliussans;
+
+}
+.ct1{
+	height: 145px;
+	width:30%;
+	float: left;
+	color:#E3E3E3;
+	
+	
+	
+	
+	
+}	
+.ct11{
+	
+	padding-bottom: 10px;
+	font-size: 20px;
+	padding-left:  10px;
+}
+.ct12{
+	padding-top: 10px;
+	font-size: 13px;
+	letter-spacing: 1px;
+	padding-bottom: 5px;
+	padding-left:  10px;
+
+}
+.ct2{
+	height: 145px;
+	width:40%;
+	float: left;
+	text-align: center;
+	
+}
+.ct21{
+	height: 60%;
+	width: 240px;
+	margin:auto;
+	padding-top: 30px;
+}
+.ct3{
+	height: 145px;
+	width:30%;
+	float: left;
+	text-align: center;
+	
+}
+.ct211{
+	float: left;
+	padding-left: 10px;
+
+}
+.ct22{
+	float: left;
+	padding: 2px;
+
+}
+.ct23{
+	float: left;
+}
+.ct24{
+	float: left;
+}
+.linkedin{
+	border-radius: 50%;
+}
+.link{
+	color: white;
+}
+.ct111{
+
+	font-size: 20px;
+	color:#F6F6F6;
+}
+.umm{
+	padding-top: 20px;
+}
+
+
+
+/*PAGE 6*/
+.page6{
+	height: 40px;
+	width:100%;
+	background-color: #282828;
+	text-align: center;
+	
+}
+
+.copy{
+	font-size:11px;
+	margin-left: 5px;
+	
+	color:white;
+	letter-spacing: 2px;
+}
+.all{
+	color: #707070;
+}
+.copy2{
+	font-size: 10px;
+	margin-left: 5px;
+
+	color:#707070;
+	letter-spacing: 2px;
+}

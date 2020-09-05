@@ -21,6 +21,20 @@ body{
 	
 }
 
+@media screen and (max-width: 600px) {
+   .page1,
+   .page21,
+   .page22,
+   .page25,
+   .page24,
+   #program{
+       width: 100%;
+       padding: 0;
+   }
+
+    
+}
+
 .logo{
 	color: #DAD5D5;
 	font-family: juliussans;
